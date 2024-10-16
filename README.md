@@ -67,8 +67,28 @@
 
 
 ## '|'- Piping command
-###
+### Used to run 2 or more commands consecutively
+### Syntax: <command>|<command>
+### Example: Using the cat with less,pg or more command to scroll through the contents, as normally cat will automatically jump to the last page.,<br>
+cat <filename> | less
 
-## lp:
+## grep:
+### Used to find a certain string in a given file
+### Syntax: grep <search_string> or cat <filename> | grep <search_string>
+### -v: Shows lines that didnot match the searched strings
+### -c: Displays count of matching files
+### -n: Shows matching line and number
+### -i: Matches both uppercase and lowercase of string
+### -l: Shows name of the file with the string
+
+## sort:
+### Used to sort a content of file in alphabetical order
+### Syntax: sort <filename>
+### -r: reverses the sorting
+### -n: sorts numrically
+### -f: case insensitive sorts
+
+# Regular Expressions
+
 
 
