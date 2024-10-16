@@ -47,6 +47,28 @@
 ### -h "header" <filename>: used to give header to the text you are printing
 ### -n <filename>: numbers each line of text
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## '|'- Piping command
+###
+
 ## lp:
 
 
