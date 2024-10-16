@@ -90,5 +90,23 @@ cat <filename> | less
 
 # Regular Expressions
 
+## ^
+### Matches to first letter of string
 
+## $
+### Matches end of string
 
+## .
+### Replaces any character
+
+## *
+### Matches upto 0 or more times the preceding character
+
+## \
+### Represents special character
+
+## ()
+### Groups regular expressions
+
+## ?
+### Matches exactly one character
