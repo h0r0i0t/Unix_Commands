@@ -35,4 +35,18 @@
 ### Used to gain knowledge about any command
 ### Syntax: man <command>
 
+## History:
+### Used to see history
+
+## clear:
+### Used to clear console
+
+## pr:
+### Used to print the contents of a certain file
+### -x <filename>: x stands for number of paragraphs
+### -h "header" <filename>: used to give header to the text you are printing
+### -n <filename>: numbers each line of text
+
+## lp:
+
 
