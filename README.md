@@ -110,3 +110,15 @@ cat <filename> | less
 
 ## ?
 ### Matches exactly one character
+
+## Regular Expressions:
+### used to filter out by checking number of times the input is repeated
+### Syntax: cat <filename> | grep -E <search_string>/{number_of_times}
+
+## Extended Regular Expressions:
+### \+: Matches one or more occourance of the previous character.
+### \?: Matches zero or one occourance of the previous character.
+
+# Brace Expansions:
+## Used to generate lists
+## Example: {0..5}<br>0 1 2 3 4 5
