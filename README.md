@@ -122,3 +122,50 @@ cat <filename> | less
 # Brace Expansions:
 ## Used to generate lists
 ## Example: {0..5}<br>0 1 2 3 4 5
+
+# Linux Networking Commands
+
+## ping: 
+### Used to check the connection to a server
+### Syntax: ping <hostname>
+
+## FTP: 
+### Used for data transfer between computers. Can be used to navigate directories and add files to them. Downloading and Uploading files made easier.
+### Syntax: ftp <hostname/ipadress>
+
+## Telnet: 
+### Used to connect to remote computers and execute. Not in use anymore since we have better and more secure ways of connecting to a remote computer.
+
+## SSH:(Secure Shell):
+### Better way to connect to remote computers, encrypts passwords.
+### Syntax: SSH username@ip_adress/hostname
+
+# Process Managing:
+## top:
+### Tells us all the running processess
+#### PID: Process id
+#### User: Username of task owner
+#### PR: Priority: 20 is highest, -20 is lowest
+#### NI: Nice value of task
+
+## PS(process status):
+
+### Used to check process staus of any process
+### Syntax: PS <process_pid>
+we can find process pid by using pidof <processname>
+
+## Kill:
+### terminates a given process
+
+## Niceness:
+### Used to give priority to a process
+### Syntax: nice -n 'Nice Value' <processname>
+### Syntax: renice 'Nice Value' -p 'PID'
+
+## df:
+### reports amount of free space in the disc
+### Syntax: df
+
+## Free:
+### Shows free and used memory in Linux ststem
+### Syntax: free -m/-g (for megabyte of gigabyte)
