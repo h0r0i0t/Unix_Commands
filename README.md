@@ -76,16 +76,19 @@
 - -> removes permission to file or directory<br>
 = -> sets permissions and overrides previous permissions<br>
 ------------------------------------------------------------------------------------------------------------
-u
+u -> user/owner<br>
+g -> group<br>
+o -> other<br>
+a -> all<br>
 
 
+### chown:
+### Used to change ownership of file/directory
+### Syntax: chgrp
 
-
-
-
-
-
-
+### chrgp:
+### can be used to change the group ownership
+### Syntax: chrgp <group> <filename>
 
 ## '|'- Piping command
 ### Used to run 2 or more commands consecutively
