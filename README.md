@@ -6,6 +6,7 @@
 ### -R: shows all files in directories or subdirectories
 ### -al: gives information about files
 ### -a: Shows hidden files
+### -l: display file permissions
 
 ## cat:
 ### Used to read contents of a file
@@ -48,12 +49,24 @@
 ### -n <filename>: numbers each line of text
 
 
+## lp/lpr:
+### to print n number copies
+### Syntax: lp -n 10 text
+### Syntsx: lpr -10 text
 
+## sudo apt -get update
 
-
-
-
-
+## chmod:
+### set permission on a file or directory
+### Syntax: chmod permission <filename>
+### 0 -> no permission
+1 -> --x
+2 -> -w-
+3 -> -wx
+4 -> r--
+5 -> r-x
+6 -> rw-
+7 -> rwx
 
 
 
