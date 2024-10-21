@@ -75,7 +75,7 @@
 + -> adds permission to a file or directory<br>
 - -> removes permission to file or directory<br>
 = -> sets permissions and overrides previous permissions<br>
-------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 u -> user/owner<br>
 g -> group<br>
 o -> other<br>
@@ -89,6 +89,17 @@ a -> all<br>
 ### chrgp:
 ### can be used to change the group ownership
 ### Syntax: chrgp <group> <filename>
+
+## Redirecting Commands:
+
+### '>' :
+### used for outputting commands
+ex: echo hello > listing<br>
+cat listing(will read out hello)<br>
+you can use '>>' to add content to an existing file as doing '>' simply overwrites it.
+### '>':
+
+
 
 ## '|'- Piping command
 ### Used to run 2 or more commands consecutively
