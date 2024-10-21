@@ -59,7 +59,8 @@
 ## chmod:
 ### set permission on a file or directory
 ### Syntax: chmod permission <filename>
-### 0 -> no permission
+### Absolute Mode:
+0 -> no permission
 1 -> --x
 2 -> -w-
 3 -> -wx
@@ -67,7 +68,13 @@
 5 -> r-x
 6 -> rw-
 7 -> rwx
+#### ex: ch <user><group><others> <filename>
+#### ch 764 sample
 
+### Symbolic Mode:
++ -> adds permission to a file or directory
+- -> removes permission to file or directory
+= -> sets permissions and overrides previous permissions
 
 
 
