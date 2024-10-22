@@ -204,3 +204,13 @@ we can find process pid by using pidof <processname>
 ## Free:
 ### Shows free and used memory in Linux ststem
 ### Syntax: free -m/-g (for megabyte of gigabyte)
+
+
+# Shell Scripting
+
+## Shell:
+### Takes input, processes it and gives suitable output
+### Shell issues the $ sign.
+## Types:
+### Bourne Shell: '$' sign 
+### C Shell: '%' sign
